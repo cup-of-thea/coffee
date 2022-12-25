@@ -11,5 +11,9 @@ p {
 }
 
 a {
-    @apply text-gray-600 border-b border-b-gray-600 hover:text-gray-800;
+    @apply text-gray-600 hover:text-gray-800;
+}
+
+.footnotes {
+    @apply text-sm;
 }

@@ -12,11 +12,10 @@ return [
     donc si cela vous gêne, tant pis, c'est ok, personne ne vous force à lire et
     rester ici. Vous pouvez fermer cette page, personne ne vous en voudra.",
     'navigation' =>
-    "Oh, tu es encore là ? Eh bien, installe-toi, tu as deux options, le contenu
-    ouvert à tout le monde (c'est juste en dessous) et le contenu fermé, en gros
-    ce qui est personnel et pour lequel il faut d'abord bien me connaître pour y
-    accéder.",
+    "Oh, tu es encore là ? Eh bien, installe-toi, mes conneries sont juste en
+    dessous.",
     'open_space' => "L'espace ouvert",
-    'closed_space' => "L'espace fermé"
+    'closed_space' => "L'espace fermé",
+    'back' => 'Retour'
 
 ];
