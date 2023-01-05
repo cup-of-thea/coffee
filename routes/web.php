@@ -2,13 +2,8 @@
 
 use App\Domain\MarkdownPost;
 use App\Domain\Post;
-use Carbon\Carbon;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Storage;
-use League\CommonMark\Environment\Environment;
-use League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension;
-use League\CommonMark\Extension\Footnote\FootnoteExtension;
-use League\CommonMark\MarkdownConverter;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,6 +33,17 @@ Route::get('/posts/{title}', function (string $title) {
     $post = MarkdownPost::convert($file);
 
     return view('post', compact('post'));
+});
+
+Route::get('/pics/{filename}', function (string $filename) {
+    $file = Storage::disk('pics')->get($filename);
+    $mime = str($filename)->afterLast('.');
+
+    if (!$file) {
+        abort(404);
+    }
+
+    return response($file)->header('Content-type','image/'.$mime);
 });
 
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])
