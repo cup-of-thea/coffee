@@ -2,4 +2,6 @@
 !public/
 !posts/
 !posts/**
+!pics/
+!pics/**
 !.gitignore
