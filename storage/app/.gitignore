@@ -5,3 +5,5 @@
 !pics/
 !pics/**
 !.gitignore
+posts/.DS_Store
+pics/.DS_Store
