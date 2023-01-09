@@ -1,7 +1,7 @@
 <x-guest-layout>
-    <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+    <div class="relative flex items-top justify-center min-h-screen bg-gray-50 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
 
-        <div class="max-w-xl p-4 w-full text-gray-800 text-justify">
+        <div class="max-w-xl p-4 w-full text-gray-900 text-justify">
             <h1> {{ __('home.title') }} </h1>
             <p> {{ __('home.description') }} </p>
             <p> {{ __('home.about') }} </p>
