@@ -4,6 +4,8 @@
 !posts/**
 !pics/
 !pics/**
+!poems/
+!poems/**
 !.gitignore
 posts/.DS_Store
 pics/.DS_Store

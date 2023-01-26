@@ -35,6 +35,26 @@ Route::get('/posts/{title}', function (string $title) {
     return view('post', compact('post'));
 });
 
+
+Route::get('/poems', function () {
+    $posts = collect(Storage::disk('poems')->files())
+        ->reverse()
+        ->map(fn ($file) => Post::make($file));
+    return view('poems', compact('posts'));
+})->name('poems');
+
+Route::get('/poems/{title}', function (string $title) {
+    $file = Storage::disk('poems')->get("$title.md");
+
+    if (!$file) {
+        abort(404);
+    }
+
+    $post = MarkdownPost::convert($file);
+
+    return view('post', compact('post'));
+});
+
 Route::get('/pics/{filename}', function (string $filename) {
     $file = Storage::disk('pics')->get($filename);
     $mime = str($filename)->afterLast('.');

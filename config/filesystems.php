@@ -36,6 +36,12 @@ return [
             'throw' => false,
         ],
 
+        'poems' => [
+            'driver' => 'local',
+            'root' => storage_path('app/poems'),
+            'throw' => false,
+        ],
+
         'pics' => [
             'driver' => 'local',
             'root' => storage_path('app/pics'),

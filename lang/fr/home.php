@@ -20,6 +20,7 @@ return [
     "PS: merci <a class=\"underline\" href=\"https://magali-milbergue.com\">Magali</a> pour le dark-mode automatique !",
     'open_space' => "L'espace ouvert",
     'closed_space' => "L'espace fermé",
-    'back' => 'Retour'
+    'back' => 'Retour',
+    'poems' => 'Poèmes'
 
 ];
