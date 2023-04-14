@@ -17,3 +17,7 @@ a {
 .footnotes {
     @apply text-sm;
 }
+
+.prose * {
+    @apply dark:text-gray-100;
+}
