@@ -18,6 +18,8 @@ class Post
             ->after('-')
             ->beforeLast('.')
             ->replace('-', ' ')
+            ->replaceFirst('_', '')
+            ->replaceFirst('_', ' :')
             ->ucfirst();
         $this->date = Carbon::createFromFormat('Y/m/d', str($filename)->replaceFirst('-', '/')->replaceFirst('-', '/')->before('-'));
         $this->slug = (string) str($filename)->beforeLast('.');
