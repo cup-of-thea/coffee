@@ -77,6 +77,15 @@ Bah non, puisque ce n'est pas une pathologie. D'ailleurs, ce n'est plus légalem
 
 Cependant, si vous en ressentez le besoin en tant que personne trans, évidemment que cela peut être bénéfique comme soutien. Notre santé mentale est précieuse, que l'on soit trans ou non d’ailleurs.
 
+Et pour préciser, l'avis d'un•e psychiatre n'est une bonne chose que pour 
+calmer la pression sociale, donc en soi dans le parcours, ce n'est pas 
+essentiel.
+
+Et pour en rajouter, dans les chiffres, la dépression diminue après que la 
+personne a entamé sa transition. Maintenant ce n'est pas systématique et 
+cela peut prendre du temps, d'autant plus quand on est constamment 
+entouré•es de transphobie.
+
 ---
 
 ## Conclusion
