@@ -4,7 +4,9 @@ Bon alors...
 
 Il va falloir parler des reportages M6 à un moment, parce que ça ne va pas du tout là.
 
-Tout d'abord, je tiens à remercier les personnes qui ont pris le temps de me parler de l'émission.  Vous avez bien fait de vous intéresser au sujet, et cela démontre que vous vous souciez de la question, ce qui me touche. Je vais être un peu abrupte dans ma critique de l'émission elle-même, mais pas de vous, je viens juste apporter des précision en tant que personne concernée.
+Tout d'abord, je tiens à remercier les personnes qui ont pris le temps de me 
+parler de l'émission.  Vous avez bien fait de vous intéresser au sujet, et 
+cela démontre que vous vous souciez de la question, ce qui me touche. Je vais être un peu abrupte dans ma critique de l'émission elle-même, mais pas de vous, je viens juste apporter des précisions en tant que personne concernée.
 
 ---
 
